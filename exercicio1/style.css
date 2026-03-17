@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Calibri;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(235, 122, 141);
+}
+section{
+    width: 30%;
+    height: 40vh;
+    border: 1px solid rgba(255, 255, 255, 0.616);
+    /* box-shadow: 10px 10px 10px rgba(255, 224, 224, 0.507); */
+    border-radius: 15px;
+    padding: 1em;
+    background-color: pink;
+}
+section div{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2em;
+}
