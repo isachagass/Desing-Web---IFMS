@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Calibri;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: rgb(235, 122, 141); */
+}
+header{
+    width: 100%;
+    height: 10vh;
+    background-color: pink;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header h1{
+    width: 80%;
+    text-align: center;
+}
+header .menu{
+    width: 30px;
+    height: 30px;
+    
+}
+header .barra{
+    width: 100%;
+    height: 3px;
+}
