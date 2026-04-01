@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULÁRIO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <main>
+        <h1>PREENCHA O FORMULÁRIO ABAIXO</h1>
+
+        <form action="" method="" >
+            <fieldset>
+
+                <legend>Dados Pessoais</legend>
+
+                <div>
+                    <label for="nome">Nome:</label>
+                    <input type="text" name="nome" id="nome">
+
+                    <label for="sobrenome">Sobrenome:</label>
+                    <input type="text" name="sobrenome" id="sobrenome">
+
+                </div>
+                <div>
+                    <label for="nascimento">Nascimento:</label>
+                    <input type="date" name="nascimento" id="nascimento">
+                </div>
+                <div>
+                    <label for="rg">RG:</label>
+                    <input type="number" id="rg" name="rg">
+                </div>
+                <div>
+                    <label for="cpf">CPF:</label>
+                    <input type="number" id="cpf" name="cpf">
+                </div>
+
+            </fieldset>
+
+            <fieldset>
+
+                <legend>Dados de Endereço</legend>
+                <div>
+                    <label for="rua">Rua:</label>
+                    <input type="text" name="rua" id="rua">
+                    <label for="numero">Número:</label>
+                    <input type="number" name="numero" id="numero">
+                </div>
+                <div>
+                    <label for="bairro">Bairro:</label>
+                    <input type="text" name="bairro" id="bairro">
+                </div>
+                <div>
+                    <label for="estado">Estado:</label>
+                    <select name="estado" id="estado">
+                        <option value="1" selected>Acre</option>
+                        <option value="2" >Alagoas</option>
+                        <option value="3" >Amapá</option>
+                        <option value="4" >Amazonas</option>
+                        <option value="5" >Bahia</option>
+                        <option value="6" >Ceará</option>
+                        <option value="7" >Distrito Federal</option>
+                        <option value="8" >Espírito Santo</option>
+                        <option value="9" >Goiás</option>
+                        <option value="10" >Maranhão</option>
+                        <option value="11" >Mato Grosso</option>
+                        <option value="12" >Mato Grosso do Sul</option>
+                        <option value="13" >Minas Gerais</option>
+                        <option value="14" >Pará</option>
+                        <option value="15" >Paraíba</option>
+                        <option value="16" >Paraná</option>
+                        <option value="17" >Pernambuco</option>
+                        <option value="18" >Piauí</option>
+                        <option value="19" >Rio de Janeiro</option>
+                        <option value="20" >Rio Grande do Norte</option>
+                        <option value="21" >Rio Grande do Sul</option>
+                        <option value="22" >Rondônia</option>
+                        <option value="23" >Roraima</option>
+                        <option value="24" >Santa Catarina</option>
+                        <option value="25" >São Paulo</option>
+                        <option value="26" >Sergipe</option>
+                        <option value="27" >Tocantins</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="cidade">Cidade:</label>
+                    <input type="text" name="cidade" id="cidade">
+                </div>
+                <div>
+                    <label for="cep">CEP:</label>
+                    <input type="number" name="cep" id="cep">
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Dados de Login</legend>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <div>
+                    <label for="img_perfil">Imagem de perfil:</label>
+                    <input type="file" name="img_perfil" id="img_perfil">
+                </div>
+                <div>
+                    <label for="user">Login de usário:</label>
+                    <input type="text" name="user" id="user">
+                </div>
+                <div>
+                    <label for="password">Senha:</label>
+                    <input type="password" name="password" id="password">
+                </div>
+                <div>
+                    <label for="password_confirm">Confirme a senha:</label>
+                    <input type="password" name="password_confirm" id="password_confirm">
+
+                </div>
+            </fieldset>
+
+            <div class="buttons">
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </div>
+
+
+
+        </form>
+    </main>
+</body>
+</html>
