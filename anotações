@@ -1,0 +1,9 @@
+form - 
+    descrições
+    method get e post
+
+input -
+    type: text, password, email, number, range, date, time, checkbox(ampla escolha), radio(uma  escolha), color, search, url(ja vem com validação), submit, textarea, select, datalist(autocomplit), label, fildset(desing),     
+    atributos: placeholder, id, nome, value, maxlength e minlength, required, disable, step(number que add na flexa, pode decimal), checked, formvalidate(no submit - ignora validação, apenas para teste de programador),
+
+    date é importante para padronizar a resposta, alem de manter a integridade do sistema   
