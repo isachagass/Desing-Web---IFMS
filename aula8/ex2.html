@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Adesão</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>Formulário de Adesão</h1>
+        <form action="">
+            <div>
+                <label for="nome">Nome</label>
+                <input type="text" name="nome" id="first" placeholder="First" required>
+                <input type="text" name="nome" id="Last" placeholder="Last" required>
+            </div>
+            <div>
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="email" required>
+            </div>
+            <div>
+                <label for="telefone">Telefone</label>
+                <input type="number" name="telefone" id="telefone" placeholder="#### #### ######">
+            </div>
+            <div class="endereco">
+                <label for="endereco">Endereço</label>
+                <div class="-grid">
+                    <input type="text" name="endereco" id="rua" placeholder="Street Address" class="inteira">
+                    <input type="text" name="endereco" id="cidade" placeholder="City">
+                    <input type="text" name="endereco" id="estado" placeholder="State">
+                    <input type="text" name="endereco" id="cep" placeholder="Postal / Zip Code">
+                    <input type="text" name="endereco" id="pais" placeholder="Country">
+
+                </div>
+
+            </div>
+            <div>
+                <label for="planos">Planos de Adesão</label>
+                <label for="planos"><input type="radio" name="planos" id="padrao">Padrão (R$200/Ano)</label>
+                <label for="planos"><input type="radio" name="planos" id="prata">Prata (R$450/Ano)</label>
+                <label for="planos"><input type="radio" name="planos" id="ouro">Ouro (R$600/Ano)</label>
+            </div>
+            <div>
+                <label for="informacao">Como você ficou sabendo de nós?</label>
+                <div>
+                    <div><input type="checkbox" name="informacao" id="amigo">Um amigo</div>
+                    <div><input type="checkbox" name="informacao" id="facebook">Facebook</div>
+                    <div><input type="checkbox" name="informacao" id="twitter">Twitter</div>
+                    <div><input type="checkbox" name="informacao" id="jornais">Jornais</div>
+                    <div><input type="checkbox" name="informacao" id="amarelas">Páginas Amarelas</div>
+                    <div><input type="checkbox" name="informacao" id="other">Other:</div>
+
+
+                    
+                </div>
+            </div>
+            <div class="endereco">
+                <div>
+                    <label for="comentario">Comentarios:</label>
+                    <p>Deixe-nos saber se há algo mais que você deseja adicionar ao nosso formulário de Adesão</p>
+
+                </div>
+                <textarea name="comentario" id="comentario"></textarea>
+            </div>
+            <div>
+                <label for="termo">Termos de Serviços</label>
+                <label for="termo">
+                    <input type="checkbox" name="termo" id="termo" required>
+                    Eu concordo com os <a href="#">Termos de serviço</a>
+                </label>
+            </div>
+            <div>
+                <label for="assinatura">Assinatura digital</label>
+
+            </div>
+            <textarea name="assinatura" id="assinatura"></textarea>
+
+        </form>
+    </main>
+</body>
+</html>

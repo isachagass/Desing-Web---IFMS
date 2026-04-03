@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    width: 95%;
+    margin: auto;
+}
+label{
+    display: inline-block;
+    width: 6em;
+}
+input{
+    /* margin: .3em; */
+}
+.-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.endereco{
+    display: flex;
+}
+.inteira{
+    grid-column-end: span 2;
+}
+fieldset{
+    padding: 1em;
+    margin-bottom: 1em;
+}
+div{
+    margin-bottom: 0.5em;
+    
+}
+input[type=radio], input[type=checkbox]{
+    margin-right: .5em;
+    margin-left: 1.5em;
+}
+p{
+    width: 6em;
+}
