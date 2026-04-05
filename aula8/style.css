@@ -11,12 +11,18 @@ label{
     display: inline-block;
     width: 6em;
 }
+.label label{
+    width: 10em;
+}
 input{
     /* margin: .3em; */
 }
 .-grid{
+    padding: 0.2em;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: .6em;
+    grid-column-gap: .6em;
 }
 .endereco{
     display: flex;
@@ -32,10 +38,58 @@ div{
     margin-bottom: 0.5em;
     
 }
+.field-2 label{
+    width: auto;
+    margin-top: 0.3em;
+}
 input[type=radio], input[type=checkbox]{
     margin-right: .5em;
     margin-left: 1.5em;
 }
-p{
-    width: 6em;
+.label input[type=radio], input[type=checkbox]{
+    margin-left: 0px;
+}
+.r-c{
+    width: auto;
+}
+
+.sabanedo{
+    width: 50%;
+    display: flex;
+
+}
+.sabanedo label{
+    width: 10em;
+}
+.comentarios{
+    display: flex;
+    /* width: 50%; */
+}
+.comentarios div{
+    max-width: 10em;
+    margin-right: .2em;
+}
+.comentarios div p{
+    color: gray;
+    font-size: small;
+}
+.termo label{
+    width: 10em;
+}
+.check{
+    width: auto !important;
+}
+.label div{
+    margin-bottom: 1em;
+}
+.enviar{
+    width: 20em;
+    display: flex;
+    background-color: rgb(59, 59, 59);
+    color: white;
+    box-shadow: 0px 0px 0px;
+    border: none;
+    margin-top: 2em;
+    padding: .7em;
+
 }

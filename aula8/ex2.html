@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <main>
+    <main class="label">
         <h1>Formulário de Adesão</h1>
         <form action="">
             <div>
@@ -36,13 +36,13 @@
 
             </div>
             <div>
-                <label for="planos">Planos de Adesão</label>
-                <label for="planos"><input type="radio" name="planos" id="padrao">Padrão (R$200/Ano)</label>
-                <label for="planos"><input type="radio" name="planos" id="prata">Prata (R$450/Ano)</label>
-                <label for="planos"><input type="radio" name="planos" id="ouro">Ouro (R$600/Ano)</label>
+                <label for="planos" class="r-c">Planos de Adesão</label>
+                <label for="planos" class="r-c"><input type="radio" name="planos" id="padrao">Padrão (R$200/Ano)</label>
+                <label for="planos" class="r-c"><input type="radio" name="planos" id="prata">Prata (R$450/Ano)</label>
+                <label for="planos" class="r-c"><input type="radio" name="planos" id="ouro">Ouro (R$600/Ano)</label>
             </div>
-            <div>
-                <label for="informacao">Como você ficou sabendo de nós?</label>
+            <div class="sabanedo">
+                <label for="informacao" >Como você ficou sabendo de nós?</label>
                 <div>
                     <div><input type="checkbox" name="informacao" id="amigo">Um amigo</div>
                     <div><input type="checkbox" name="informacao" id="facebook">Facebook</div>
@@ -55,7 +55,7 @@
                     
                 </div>
             </div>
-            <div class="endereco">
+            <div class="comentarios">
                 <div>
                     <label for="comentario">Comentarios:</label>
                     <p>Deixe-nos saber se há algo mais que você deseja adicionar ao nosso formulário de Adesão</p>
@@ -63,9 +63,9 @@
                 </div>
                 <textarea name="comentario" id="comentario"></textarea>
             </div>
-            <div>
+            <div class="termo">
                 <label for="termo">Termos de Serviços</label>
-                <label for="termo">
+                <label for="termo" class="check">
                     <input type="checkbox" name="termo" id="termo" required>
                     Eu concordo com os <a href="#">Termos de serviço</a>
                 </label>
@@ -75,6 +75,8 @@
 
             </div>
             <textarea name="assinatura" id="assinatura"></textarea>
+
+            <input type="submit" value="Enviar Formulário de Adesão" class="enviar">
 
         </form>
     </main>

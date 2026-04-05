@@ -1,0 +1,116 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body, main, form{
+    width: 100%;
+    height: 100vh;
+    padding: .5em;
+}
+.topo{
+    background-color: rgb(231, 231, 231);
+    border: .5px solid rgb(196, 196, 196);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .3em;
+    margin-bottom: 1em;
+}
+.line{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 1em;
+    border-bottom: 1px solid gray;
+}
+.line .first{
+    display: flex;
+    gap: 5px;
+    color: gray;
+}
+.line div img{
+    width: 30px;
+    height: auto;
+}
+.line .second input{
+    width: 8em;
+}
+.forms_input{
+    display: flex;
+    gap: 2em;
+    margin-top: .5em;
+    margin-bottom: .5em;
+}
+.forms_input div{
+    width: 50%;
+    margin-bottom: .3em;
+}
+.forms_input div div{
+    width: 100%;
+}
+.forms_input div div label{
+    display: inline-block;
+    width: 8em;
+    font-weight: bold;
+}
+.forms_input div div input{
+    width: 50%;
+}
+.tables_box{
+    border: 1px solid gray;
+    padding: .3em;
+}
+.links{
+    background-color: rgb(236, 236, 236);
+    border: 1px solid gray;
+
+}
+.tables_box{
+    margin-bottom: .7em;
+}
+.tables_box .links input, .links a, .links label, .links select{
+    margin: .5em;
+}
+table{
+    width: 100%;
+    height: 25vh;
+    margin: .3em;
+}
+table tr{
+    padding: .2em;
+    
+}
+table .especial{
+    border-top: 1px dashed gray;
+    color: gray;
+    text-align: center;
+}
+._grid{
+    display: grid;
+    grid-template-columns: 75% 25%;
+    border-bottom: 2px solid gray;
+    padding-bottom: .6em;
+    margin-bottom: 1em;
+}
+._grid div{
+    margin: .3em;
+
+}
+._grid div label {
+    display: inline-block;
+    font-weight: bold;
+    width: 8em;
+}
+._grid div p, ._grid div label {
+    display: inline-block;
+    width: 8em;
+    /* text-align: end; */
+
+}
+._grid div input{
+    width: 30%;
+}
+.line2{
+    border: none;
+}

@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <main>
+        <form action="">
+            <div class="topo">
+                <select name="record" id="record">
+                    <option value="1">Selecione</option>
+                    <option value="2" selected>Record</option>
+                </select>
+                <div>
+                    <label for="view">View:</label>
+                    <select name="view" id="view">
+                        <option value="review_orders" selected>Review Orders</option>
+                        <option value="review_orders" >Selecione</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="line">
+                <div class="first">
+                    <img src="./imagens/setas.png" alt="setas" width="100px" height="70px">
+                    <p>* - indicates a required field</p>
+                </div>
+                <div class="second">
+                    <input type="submit" value="OK">
+                    <input type="submit" value="Delete">
+                    <input type="reset" value="Cancel">
+                </div>
+            </div>
+
+            <div class="forms_input">
+                <div>
+                    <div>
+                        <label for="costumer">Costumer:</label>
+                        <input type="text" name="costumer" id="costumer" placeholder="Bon app'">
+                    </div>
+                    <div>
+                        <label for="employee">Employee:</label>
+                        <input type="text" name="employee" id="employee" placeholder="Peacock">
+                    </div>
+                    <div>
+                        <label for="order_date">Order Date:</label>
+                        <input type="date" name="order_date" id="order_date" >
+                    </div>
+                    <div>
+                        <label for="required_date">Required Date:</label>
+                        <input type="date" name="required_date" id="required_date" >
+                    </div>
+                    <div>
+                        <label for="shipped_date">Shipped Date:</label>
+                        <input type="date" name="shipped_date" id="shipped_date" >
+                    </div>
+
+                </div>
+                <div>
+                    <div>
+                        <label for="address">Address:</label>
+                        <input type="text" name="address" id="address">
+                    </div>
+                    <div>
+                        <label for="City">City:</label>
+                        <input type="text" name="City" id="City">
+                    </div>
+                    <div>
+                        <label for="region">Region:</label>
+                        <input type="text" name="region" id="region">
+                    </div>
+                    <div>
+                        <label for="postal_code">Postal Code:</label>
+                        <input type="number" name="postal_code" id="postal_code">
+                    </div>
+                    <div>
+                        <label for="ship_country">Ship Country:</label>
+                        <input type="text" name="ship_country" id="ship_country">
+                    </div>
+                </div>
+            </div>
+
+            <div class="tables_box">
+                <div class="links">
+                    <select name="select" id="select">
+                        <option value="1"></option>
+                    </select>
+                    <input type="search" placeholder="cha">
+                    <a href="#">New Order Details</a>
+                    <!-- <label for="actions">Actions</label> -->
+                    <select name="actions" id="actions">
+                        <option value="1">Actions</option>
+                        <option value="2">Actions</option>
+                    </select>
+                </div>
+
+                <table>
+                    <tr>
+                        <td><a href="#">Product Name</a></td>
+                        <td><a href="#">Unit Price</a></td>
+                        <td><a href="#">Quantity</a></td>
+                        <td><a href="#">Discount</a></td>
+                        <td><a href="#">Product Category Name</a></td>
+                        <td><a href="#">Product Supplier Company Name</a></td>
+                        <td><a href="#">Extended Price</a></td>
+
+                    </tr>
+                    <tr>
+                        <td><a href="#">Grandma's Boysenberry Spread</a></td>
+                        <td>$25.00</td>
+                        <td>20</td>
+                        <td>25.00%</td>
+                        <td>Condiments</td>
+                        <td>Grandma Kelly's Homestead</td>
+                        <td>$375.00</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">Tofu</a></td>
+                        <td>$23.25</td>
+                        <td>20</td>
+                        <td>25.00%</td>
+                        <td>Produce</td>
+                        <td>Mayumi's</td>
+                        <td>$348.75</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">Teatime Chocolate Biscuits</a></td>
+                        <td>$9.20</td>
+                        <td>10</td>
+                        <td>25.00%</td>
+                        <td>Confections</td>
+                        <td>Specialty Biscuits, Ltd.</td>
+                        <td>$69.00</td>
+                    </tr>
+                    <tr >
+                        <td class="especial" colspan="6">Avg: $19.15  Sum: 50  Avg: 25.00%</td>
+                        <td class="especial">Sum: $792.75</td>
+                    </tr>
+
+                </table>
+
+            </div>
+
+            <div class="_grid">
+                <div></div>
+                <div>
+                    <label for="subtotal">Subtotal:</label>
+                    <p>$792.75</p>
+                </div>
+                <div>
+                    <label for="ship_name">Ship Name:</label>
+                    <input type="text" name="ship_name" id="ship_name" placeholder="Bon app'">
+                </div>
+                <div>
+                    <label for="freight">Freight:</label>
+                    <input type="number" name="freight" id="freight" placeholder="$38.28">
+                </div>
+                <div>
+                    <label for="ship_via">Ship Via:</label>
+                    <select name="ship_via" id="ship_via">
+                        <option value="1" selected>United Package</option>
+                        <option value="2">Select</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="total">Total:</label>
+                    <p>$831.03</p>
+                </div>
+            </div>
+
+            <div class="line line2">
+                <div class="first">
+                    <img src="./imagens/setas.png" alt="setas" width="100px" height="70px">
+                    <p>* - indicates a required field</p>
+                </div>
+                <div class="second">
+                    <input type="submit" value="OK">
+                    <input type="submit" value="Delete">
+                    <input type="reset" value="Cancel">
+                </div>
+            </div>
+
+        </form>
+    </main>
+</body>
+</html>
